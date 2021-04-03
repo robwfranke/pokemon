@@ -36,9 +36,12 @@ maak in github nieuwe repository aan.
 - git remote add origin https://github.com/robwfranke/new_clone.git
 - git add .
 - git status
-- git branch -a (local+remote)
+
 - git commit -m "Start project"
+  
+- git branch -M master
 - git push origin master
+- git branch -a (local+remote)
 - check github
 - git checkout -b branchname
 
